@@ -1,0 +1,64 @@
+.dropzone {
+  border: 1.5px dashed var(--border-strong);
+  border-radius: var(--radius-lg);
+  padding: 28px 22px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  background: var(--bg-elevated);
+}
+
+.dropzone:hover,
+.dropzoneActive {
+  border-color: var(--accent-primary);
+  background: var(--accent-primary-dim);
+}
+
+.dropzoneIcon {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.dropzoneTitle {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.dropzoneSub {
+  font-size: 12.5px;
+  color: var(--text-secondary);
+}
+
+.formatRow {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 14px;
+  flex-wrap: wrap;
+}
+
+.formatChip {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  padding: 3px 8px;
+  border-radius: 100px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-tertiary);
+}
+
+.hiddenInput {
+  display: none;
+}
+
+.errorBanner {
+  margin-top: 12px;
+  font-size: 12.5px;
+  color: var(--accent-danger);
+  background: rgba(226, 89, 107, 0.1);
+  border: 1px solid rgba(226, 89, 107, 0.3);
+  border-radius: var(--radius-sm);
+  padding: 9px 12px;
+}
