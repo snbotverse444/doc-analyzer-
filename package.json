@@ -17,7 +17,7 @@
     "mammoth": "^1.7.2",
     "jszip": "^3.10.1",
     "fast-xml-parser": "^4.4.1",
-    "uuid": "^9.0.1"
+    "uuid": "^14.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.14.9",
