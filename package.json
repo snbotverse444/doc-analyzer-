@@ -16,7 +16,7 @@
     "xlsx": "^0.18.5",
     "mammoth": "^1.7.2",
     "jszip": "^3.10.1",
-    "fast-xml-parser": "^4.4.1",
+    "fast-xml-parser": "^5.7.0",
     "uuid": "^14.0.0"
   },
   "devDependencies": {
