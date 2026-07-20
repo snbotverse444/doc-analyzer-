@@ -1,0 +1,5 @@
+# Lead or security team reviews all code
+* @your-organization/security-leads
+
+# Repository administrators protect GitHub configuration
+/.github/ @snbotverse444/repository-admins
